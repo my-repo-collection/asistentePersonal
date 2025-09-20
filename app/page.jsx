@@ -9,23 +9,23 @@ const SITE = {
   email: 'tuemail@dominio.com',
   address: 'Montevideo, Uruguay',
   cvLink: '#', // link al CV descargable
-  heroImage: 'https://via.placeholder.com/600x400?text=Hero+Image', // reemplazar
+  heroImage: '/public/images/hero.jpeg', // reemplazar
 };
 
 const SERVICES = [
-  { title: 'Higiene y baño', desc: 'Aseo personal, cambio de ropa, cuidado de la piel y confort.', img: 'https://via.placeholder.com/150?text=Higiene' },
-  { title: 'Alimentación y preparación de comidas', desc: 'Apoyo en la alimentación, dietas sencillas y supervisión.', img: 'https://via.placeholder.com/150?text=Alimentacion' },
-  { title: 'Movilidad y traslado', desc: 'Asistencia para caminar, uso de ayudas técnicas y movilizaciones seguras.', img: 'https://via.placeholder.com/150?text=Movilidad' },
-  { title: 'Apoyo en medicación', desc: 'Organización y recordatorio de medicación según indicaciones.', img: 'https://via.placeholder.com/150?text=Medicación' },
-  { title: 'Estimulación y compañía', desc: 'Actividades recreativas y estimulación cognitiva ligera.', img: 'https://via.placeholder.com/150?text=Estimulación' },
+  { title: 'Higiene y baño', desc: 'Aseo personal, cambio de ropa, cuidado de la piel y confort.', img: '/public/images/higiene.jpeg' },
+  { title: 'Alimentación y preparación de comidas', desc: 'Apoyo en la alimentación, dietas sencillas y supervisión.', img: '/public/images/alimentacion.jpeg' },
+  { title: 'Movilidad y traslado', desc: 'Asistencia para caminar, uso de ayudas técnicas y movilizaciones seguras.', img: '/public/images/mobilidad.jpeg' },
+  { title: 'Apoyo en medicación', desc: 'Organización y recordatorio de medicación según indicaciones.', img: '/public/images/medicacion.jpeg' },
+  { title: 'Estimulación y compañía', desc: 'Actividades recreativas y estimulación cognitiva ligera.', img: '/public/images/compania.jpeg' },
 ];
 
 const TEAM = [
-  { name: 'Tu Nombre', role: 'Asistente certificada - INEFOP (Atención a la Dependencia)', bio: 'Formación práctica con experiencia en acompañamiento domiciliario. Prácticas supervisadas en 2020.', img: 'https://via.placeholder.com/100?text=Avatar' },
+  { name: 'Tu Nombre', role: 'Asistente certificada - INEFOP (Atención a la Dependencia)', bio: 'Formación práctica con experiencia en acompañamiento domiciliario. Prácticas supervisadas en 2020.', img: '/public/images/avatar.jpeg' },
 ];
 
 const TESTIMONIALS = [
-  { name: 'Familia Pérez', text: 'Muy agradecidos con la atención y la puntualidad. Excelente trato humano.', img: 'https://via.placeholder.com/50?text=Testimonio' },
+  { name: 'Familia Pérez', text: 'Muy agradecidos con la atención y la puntualidad. Excelente trato humano.', img: '/public/images/familia.jpeg' },
 ];
 
 export default function Landing() {
