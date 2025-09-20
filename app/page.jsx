@@ -21,8 +21,38 @@ const SERVICES = [
 ];
 
 const TEAM = [
-  { name: 'Maria Mendoza', role: 'Asistente certificada - INEFOP (Atención a la Dependencia)', bio: 'Con experiencia en acompañamiento domiciliario.', img: 'https://github.com/my-repo-collection/asistentePersonal/blob/main/public/images/avatar.jpeg?raw=true' },
+  {
+    name: 'Maria Mendoza',
+    role: 'Asistente certificada - INEFOP (Atención a la Dependencia)',
+    bio: 'Con experiencia en acompañamiento domiciliario.',
+    img: 'https://github.com/my-repo-collection/asistentePersonal/blob/main/public/images/avatar1.jpeg?raw=true',
+  },
+  {
+    name: 'Juan Pérez',
+    role: 'Asistente domiciliario',
+    bio: 'Especialista en movilización segura y apoyo en actividades cotidianas.',
+    img: 'https://github.com/my-repo-collection/asistentePersonal/blob/main/public/images/avatar2.jpeg?raw=true',
+  },
+  {
+    name: 'Ana Rodríguez',
+    role: 'Asistente de apoyo',
+    bio: 'Experiencia en estimulación cognitiva y compañía para adultos mayores.',
+    img: 'https://github.com/my-repo-collection/asistentePersonal/blob/main/public/images/avatar3.jpeg?raw=true',
+  },
+  {
+    name: 'Carlos Gómez',
+    role: 'Cuidador con experiencia',
+    bio: 'Apoyo integral en higiene, alimentación y confort del adulto mayor.',
+    img: 'https://github.com/my-repo-collection/asistentePersonal/blob/main/public/images/avatar4.jpeg?raw=true',
+  },
+  {
+    name: 'Lucía Fernández',
+    role: 'Asistente de acompañamiento',
+    bio: 'Fomenta la autonomía y realiza actividades recreativas adaptadas.',
+    img: 'https://github.com/my-repo-collection/asistentePersonal/blob/main/public/images/avatar5.jpeg?raw=true',
+  },
 ];
+
 
 const TESTIMONIALS = [
   { name: 'Familia Pérez', text: 'Muy agradecidos con la atención y la puntualidad. Excelente trato humano.', img: 'https://github.com/my-repo-collection/asistentePersonal/blob/main/public/images/familia.jpeg?raw=true' },
