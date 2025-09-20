@@ -13,7 +13,7 @@ const SITE = {
 };
 
 const SERVICES = [
-  { title: 'Higiene y baño', desc: 'Aseo personal, cambio de ropa, cuidado de la piel y confort.', img: '/public/images/higiene.jpeg' },
+  { title: 'Higiene y baño', desc: 'Aseo personal, cambio de ropa, cuidado de la piel y confort.', img: 'https://github.com/my-repo-collection/asistentePersonal/blob/main/public/images/higiene.jpeg?raw=true' },
   { title: 'Alimentación y preparación de comidas', desc: 'Apoyo en la alimentación, dietas sencillas y supervisión.', img: 'https://github.com/my-repo-collection/asistentePersonal/blob/main/public/images/alimentacion.jpeg?raw=true' },
   { title: 'Movilidad y traslado', desc: 'Asistencia para caminar, uso de ayudas técnicas y movilizaciones seguras.', img: 'https://github.com/my-repo-collection/asistentePersonal/blob/main/public/images/mobilidad.jpeg?raw=true' },
   { title: 'Apoyo en medicación', desc: 'Organización y recordatorio de medicación según indicaciones.', img: 'https://github.com/my-repo-collection/asistentePersonal/blob/main/public/images/medicacion.jpeg?raw=true' },
@@ -21,7 +21,7 @@ const SERVICES = [
 ];
 
 const TEAM = [
-  { name: 'Tu Nombre', role: 'Asistente certificada - INEFOP (Atención a la Dependencia)', bio: 'Formación práctica con experiencia en acompañamiento domiciliario. Prácticas supervisadas en 2020.', img: 'https://github.com/my-repo-collection/asistentePersonal/blob/main/public/images/avatar.jpeg?raw=true' },
+  { name: 'Maria Mendoza', role: 'Asistente certificada - INEFOP (Atención a la Dependencia)', bio: 'Con experiencia en acompañamiento domiciliario.', img: 'https://github.com/my-repo-collection/asistentePersonal/blob/main/public/images/avatar.jpeg?raw=true' },
 ];
 
 const TESTIMONIALS = [
