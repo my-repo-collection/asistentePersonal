@@ -21,11 +21,11 @@ const SERVICES = [
 ];
 
 const TEAM = [
-  { name: 'Tu Nombre', role: 'Asistente certificada - INEFOP (Atención a la Dependencia)', bio: 'Formación práctica con experiencia en acompañamiento domiciliario. Prácticas supervisadas en 2020.', img: '/public/images/avatar.jpeg' },
+  { name: 'Tu Nombre', role: 'Asistente certificada - INEFOP (Atención a la Dependencia)', bio: 'Formación práctica con experiencia en acompañamiento domiciliario. Prácticas supervisadas en 2020.', img: 'https://github.com/my-repo-collection/asistentePersonal/blob/main/public/images/avatar.jpeg?raw=true' },
 ];
 
 const TESTIMONIALS = [
-  { name: 'Familia Pérez', text: 'Muy agradecidos con la atención y la puntualidad. Excelente trato humano.', img: '/public/images/familia.jpeg' },
+  { name: 'Familia Pérez', text: 'Muy agradecidos con la atención y la puntualidad. Excelente trato humano.', img: 'https://github.com/my-repo-collection/asistentePersonal/blob/main/public/images/familia.jpeg?raw=true' },
 ];
 
 export default function Landing() {
