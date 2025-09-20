@@ -32,14 +32,14 @@ const TEAM = [
     name: 'Juan Pérez', 
     role: 'Asistente domiciliario', 
     bio: 'Especializado en movilidad y compañía de adultos mayores.', 
-    img: 'https://github.com/my-repo-collection/asistentePersonal/blob/main/public/images/avatar2.jpeg?raw=true',
+    img: 'https://github.com/my-repo-collection/asistentePersonal/blob/main/public/images/juan.jpeg?raw=true',
     highlight: false
   },
   { 
     name: 'Ana Rodríguez', 
     role: 'Acompañante', 
     bio: 'Apoyo en actividades diarias y estimulación cognitiva.', 
-    img: 'https://github.com/my-repo-collection/asistentePersonal/blob/main/public/images/avatar3.jpeg?raw=true',
+    img: 'https://github.com/my-repo-collection/asistentePersonal/blob/main/public/images/ana.jpeg?raw=true',
     highlight: true // También destacada
   },
 ];
