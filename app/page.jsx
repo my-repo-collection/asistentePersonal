@@ -68,6 +68,7 @@ const TEAM = [
 
 
 
+
 const TESTIMONIALS = [
   { name: 'Familia Pérez', text: 'Muy agradecidos con la atención y la puntualidad. Excelente trato humano.', img: 'https://github.com/my-repo-collection/asistentePersonal/blob/main/public/images/familia.jpeg?raw=true' },
 ];
