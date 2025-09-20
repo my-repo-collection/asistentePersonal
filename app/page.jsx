@@ -9,12 +9,12 @@ const SITE = {
   email: 'tuemail@dominio.com',
   address: 'Montevideo, Uruguay',
   cvLink: '#', // link al CV descargable
-  heroImage: './public/images/hero.jpeg', // reemplazar
+  heroImage: 'https://github.com/my-repo-collection/asistentePersonal/blob/main/public/images/hero.jpeg?raw=true', // reemplazar
 };
 
 const SERVICES = [
   { title: 'Higiene y baño', desc: 'Aseo personal, cambio de ropa, cuidado de la piel y confort.', img: '/public/images/higiene.jpeg' },
-  { title: 'Alimentación y preparación de comidas', desc: 'Apoyo en la alimentación, dietas sencillas y supervisión.', img: './public/images/alimentacion.jpeg' },
+  { title: 'Alimentación y preparación de comidas', desc: 'Apoyo en la alimentación, dietas sencillas y supervisión.', img: 'https://github.com/my-repo-collection/asistentePersonal/blob/main/public/images/alimentacion.jpeg?raw=true' },
   { title: 'Movilidad y traslado', desc: 'Asistencia para caminar, uso de ayudas técnicas y movilizaciones seguras.', img: '/public/images/mobilidad.jpeg' },
   { title: 'Apoyo en medicación', desc: 'Organización y recordatorio de medicación según indicaciones.', img: '/public/images/medicacion.jpeg' },
   { title: 'Estimulación y compañía', desc: 'Actividades recreativas y estimulación cognitiva ligera.', img: '/public/images/compania.jpeg' },
