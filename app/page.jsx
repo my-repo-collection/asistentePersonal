@@ -21,37 +21,51 @@ const SERVICES = [
 ];
 
 const TEAM = [
-  {
-    name: 'Maria Mendoza',
-    role: 'Asistente certificada - INEFOP (Atención a la Dependencia)',
-    bio: 'Con experiencia en acompañamiento domiciliario.',
-    img: 'https://github.com/my-repo-collection/asistentePersonal/blob/main/public/images/avatar1.jpeg?raw=true',
+  { 
+    name: 'Maria Mendoza', 
+    role: 'Asistente certificada - INEFOP (Atención a la Dependencia)', 
+    bio: 'Con experiencia en acompañamiento domiciliario.', 
+    img: 'https://github.com/my-repo-collection/asistentePersonal/blob/main/public/images/avatar.jpeg?raw=true', 
+    highlight: true // Este será destacado
   },
-  {
-    name: 'Juan Pérez',
-    role: 'Asistente domiciliario',
-    bio: 'Especialista en movilización segura y apoyo en actividades cotidianas.',
+  { 
+    name: 'Juan Pérez', 
+    role: 'Asistente domiciliario', 
+    bio: 'Especializado en movilidad y compañía de adultos mayores.', 
     img: 'https://github.com/my-repo-collection/asistentePersonal/blob/main/public/images/avatar2.jpeg?raw=true',
+    highlight: false
   },
-  {
-    name: 'Ana Rodríguez',
-    role: 'Asistente de apoyo',
-    bio: 'Experiencia en estimulación cognitiva y compañía para adultos mayores.',
+  { 
+    name: 'Ana Rodríguez', 
+    role: 'Acompañante', 
+    bio: 'Apoyo en actividades diarias y estimulación cognitiva.', 
     img: 'https://github.com/my-repo-collection/asistentePersonal/blob/main/public/images/avatar3.jpeg?raw=true',
-  },
-  {
-    name: 'Carlos Gómez',
-    role: 'Cuidador con experiencia',
-    bio: 'Apoyo integral en higiene, alimentación y confort del adulto mayor.',
-    img: 'https://github.com/my-repo-collection/asistentePersonal/blob/main/public/images/avatar4.jpeg?raw=true',
-  },
-  {
-    name: 'Lucía Fernández',
-    role: 'Asistente de acompañamiento',
-    bio: 'Fomenta la autonomía y realiza actividades recreativas adaptadas.',
-    img: 'https://github.com/my-repo-collection/asistentePersonal/blob/main/public/images/avatar5.jpeg?raw=true',
+    highlight: true // También destacada
   },
 ];
+
+{/* Equipo */}
+<section className="py-8">
+  <div className="max-w-6xl mx-auto px-4">
+    <h3 className="text-xl font-semibold mb-6">Equipo</h3>
+    <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
+      {TEAM.map((p) => (
+        <div key={p.name} className="relative bg-white p-4 rounded-lg shadow text-center">
+          {p.highlight && (
+            <span className="absolute top-2 right-2 bg-rose-500 text-white text-xs px-2 py-1 rounded-full font-semibold">
+              Destacado
+            </span>
+          )}
+          <img src={p.img} alt={p.name} className="mx-auto mb-3 w-24 h-24 rounded-full object-cover" />
+          <h4 className="font-medium">{p.name}</h4>
+          <p className="text-sm text-gray-600">{p.role}</p>
+          <p className="mt-2 text-sm text-gray-600">{p.bio}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
 
 
 const TESTIMONIALS = [
