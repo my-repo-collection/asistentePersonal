@@ -53,7 +53,7 @@ export default function Landing() {
         <div className="max-w-6xl mx-auto px-4 grid gap-8 md:grid-cols-2 items-center">
           <div>
             <h2 className="text-3xl md:text-4xl font-extrabold leading-tight">Cuidado profesional y humano para quienes más quieres</h2>
-            <p className="mt-4 text-gray-600">Formación certificada por INEFOP (Curso Atención a la Dependencia). Servicios personalizados, horarios flexibles y acompañamiento con respeto y calidez.</p>
+            <p className="mt-4 text-gray-600">Personal cualificado con formación certificada por INEFOP (Curso Atención a la Dependencia). Servicios personalizados, horarios flexibles y acompañamiento con respeto y calidez.</p>
             <div className="mt-6 flex gap-3">
               <a href={`https://wa.me/${SITE.phoneWhatsApp.replace('+','')}`} className="px-5 py-3 bg-rose-500 text-white rounded-md shadow">Reservar hora</a>
               <a href={SITE.cvLink} className="px-5 py-3 border border-gray-300 rounded-md">Ver CV / Certificados</a>
